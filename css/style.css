@@ -49,7 +49,7 @@ font-weight: bold;
 }
 .landing_page{
 
-  padding-top: 120px;
+  padding-top: 100px;
   /* padding-bottom: 50px; */
   font-family: 'Poppins', sans-serif;
   background-image: url('../img/bg.jpg') ;
@@ -68,29 +68,6 @@ font-weight: bold;
   color:rgb(255, 174, 0) ;
   font-weight: bold;
 } 
-
-
-.landing_page input[type=button]{
-
-  background-color: #ff6584;
-  color: #fff;
-  border: none; 
-  border-radius: 5px;
-  padding: 20px;
-  cursor: pointer;
-}
-
-.landing_page input[type=button]:hover{
-
-  transition: ease-out 1.5s;
-  color: #fff;
-  background-color:#c44b64; 
-  box-shadow: inset 0 100px 0 0 #c44b64;
-  border: none; 
-  border-radius: 5px;
-  padding: 20px;
-  cursor: pointer;
-}
 
 #upper_float{
   padding-top: 80px;
@@ -119,7 +96,14 @@ font-weight: bold;
 #upper_float .row .card {
   border-width: medium;
   border-color: #e9e9e9 #e9e9e9 rgb(255, 174, 0) #e9e9e9 ; 
-  height: 310px;
+  height: 320px;
+  text-align: left;
+  padding: 5px;
+}
+#upper_float .row .card .card2{
+  border-width: medium;
+  border-color: #e9e9e9 #e9e9e9 rgb(0, 0, 0) #e9e9e9 ; 
+  height: 100px;
   text-align: left;
 }
 #upper_float .fas .fa-laptop-code{
