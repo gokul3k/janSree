@@ -44,6 +44,7 @@ font-weight: bold;
   color:#000 ;
 }
 
+
 #home h3{
   font-family: 'Poppins', sans-serif;
 }
@@ -93,7 +94,7 @@ font-weight: bold;
   font-weight: bold;
 }
 .landing_page h5{
-  color:rgb(255, 174, 0) ;
+  color:#efef ;
   font-weight: bold;
 } 
 
@@ -105,7 +106,7 @@ font-weight: bold;
 }
 #upper_float h2{
   font-weight: bold;
-  color: #32325c;
+  color: #0D47A1;
 }
 #upper_float h6{
   color: #546182;
@@ -123,7 +124,7 @@ font-weight: bold;
 }
 #upper_float .row .card {
   border-width: medium;
-  border-color: #e9e9e9 #e9e9e9 rgb(255, 174, 0) #e9e9e9 ; 
+  border-color: #e9e9e9 #e9e9e9 #4282F2 #e9e9e9 ; 
   height: 320px;
   text-align: left;
   padding: 5px;
@@ -175,7 +176,7 @@ font-weight: bold;
 .latest h2{
   padding-top: 50px;
   font-weight: bold;
-  color:rgb(255, 174, 0);
+  color:#0D47A1;
 }
 .latest h6{
   color: rgb(73, 66, 66);
@@ -194,20 +195,22 @@ font-weight: bold;
   float: right;
 }
 .latest .card{
-  height: 100%;
+  height: 300px;
   width: 100%;
   border: none;
+  color: white;
   padding-top: 25px;
   padding-bottom: 20px;
   background: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
+.latest .card p{
+  font-size: 18px;
+}
 .latest .card:hover{
   cursor: pointer;
   border: none; 
   transition: all .5s;
-  color: white;
-  background:rgba(255, 174, 0, 0.781);
   box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.082);
 }
 .latest .card :hover{
@@ -220,13 +223,13 @@ font-weight: bold;
   background-color: #ffffff;
   padding-bottom: 50px;
 }
-.locations .card:hover{
+/* .locations .card:hover{
   background-color: #ffb606;
-}
+} */
 .locations h2{
   padding-top: 50px;
   font-weight: bold;
-  color:rgb(255, 174, 0);
+  color:#0D47A1;
 }
 .location h6{
   color: rgb(73, 66, 66);
@@ -244,6 +247,14 @@ font-weight: bold;
   cursor: pointer;
   float: right;
 }
+.blog_content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.blog_content #blog_card{
+  width: 100%;
+  background-color:#dfdfdf;
+}
 
 
 #map{
@@ -259,7 +270,7 @@ font-weight: bold;
   color: #ffffff;
 }
 .cardline2{
-  border: 1px solid rgb(255, 174, 0);
+  border: 1px solid #4282F2;
   position: relative;
   max-width: 100px;
   margin: 0px 0px 5% 0px;
